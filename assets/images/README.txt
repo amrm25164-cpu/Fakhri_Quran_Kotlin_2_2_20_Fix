@@ -1,0 +1,1 @@
+Optional licensed background images for the video design studio can be placed here.
