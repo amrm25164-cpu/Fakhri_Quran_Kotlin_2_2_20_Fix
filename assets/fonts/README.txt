@@ -1,0 +1,1 @@
+The supplied Uthmanic Hafs font is included as assets/fonts/UthmanicHafs1.ttf. The original uploaded filename was UthmanicHafs1 Ver13.otf.ttf; it was copied to the asset path declared in pubspec.yaml. Add more font files here and register each family in pubspec.yaml to use additional fonts.\n
