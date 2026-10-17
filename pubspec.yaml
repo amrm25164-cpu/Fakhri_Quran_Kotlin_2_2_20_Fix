@@ -1,0 +1,34 @@
+name: fakhri_quran
+description: Arabic Quran reader with offline text and recitation downloads, translations, prayer reminders, qibla, and MP4 verse video export.
+publish_to: "none"
+version: 1.2.0+3
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  just_audio: ^0.9.40
+  share_plus: ^10.0.2
+  cross_file: ^0.3.4+2
+  url_launcher: ^6.3.1
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  flutter_compass: ^0.8.1
+  ffmpeg_kit_flutter_new: ^4.6.7
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+  fonts:
+    - family: UthmanicHafs
+      fonts:
+        - asset: assets/fonts/UthmanicHafs1.ttf
+          # If the supplied font is unavailable, remove this entry; system Arabic fallback remains usable.
