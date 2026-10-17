@@ -1,0 +1,1 @@
+Quran text is fetched from AlQuran Cloud API using the Uthmani script endpoint. No Quran text is fabricated or bundled in this starter.
